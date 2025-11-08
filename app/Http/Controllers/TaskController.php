@@ -5,6 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Task;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+
+//TODO
+//Task Controller refactoring
+//solve PHP db driver package problems!!!!!!
+
 class TaskController extends Controller
 {
     public function get_all_tasks(Request $request){
